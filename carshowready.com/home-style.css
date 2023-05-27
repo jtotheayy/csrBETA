@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+  }
+  
+  #introduction {
+    position: relative;
+  }
+  
+  #background {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header {
+    border-bottom: 1px red solid;
+  }
+  
+  #bookDetail {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bookDetailButton {
+    background-color: darkred;
+    padding: 20px 70px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+
+    #logo {
+      margin-left: 30px;
+      width: 100px;
+      height: 80px;
+    }
+    #dropdown-arrow {
+      width: 64px;
+      height: 64px;
+      margin-right: 30px;
+      float: right;
+      border: 5px solid red;
+      border-radius: 15px;
+    }
+    #dropdown-arrow:hover {
+      cursor: pointer;
+    }
+    #selection-dropdown {
+      display: none;
+    
+      z-index: 2;
+    }
+    #selection-dropdown ul {
+      padding: 0;
+      margin-bottom: 0;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+
+    }
+    #selection-dropdown li {
+      border-top: 1px white solid;
+      list-style-type: none;
+
+      padding: 15px 0 15px 0;
+    }
+    #selection-dropdown li:hover {
+      background-color: darkred;
+      cursor: pointer;
+    }
+    #selection-dropdown li a {
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+    /* Styles specific to smaller screens */
+  }
+  
+  @media (min-width: 769px) {
+    #logo {
+      width: 300px;
+      height: 300px;
+    }
+    #dropdown-arrow {
+      display: none;
+    }
+    /* Styles specific to medium screens */
+  }
+  
+  #about h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  #about h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  #goToBook {
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    width: 50%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #instagram {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header {
+    background-color: black;
+  }
+  
